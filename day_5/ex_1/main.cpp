@@ -1,15 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <thread>
 #include <cmath>
-
-using std::cout;
-using std::endl;
-
-void chain(int start_pos, int inc){
-  //do stuff
-}
 
 int main(){
   std::ifstream file("bin/input.txt");
@@ -37,5 +29,5 @@ int main(){
       count++;
     }
   }
-  cout << count;
+  std::cout << count;
 }
